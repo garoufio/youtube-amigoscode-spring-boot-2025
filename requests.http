@@ -1,5 +1,5 @@
-### GET request to localhost on port 8080
+### GET request to localhost - print a welcome message
 GET http://localhost:8080
 
-###
+### GET request to localhost - show a list of default software engineers
 GET http://localhost:8080/api/v1/software-engineers

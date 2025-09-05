@@ -11,7 +11,7 @@ import java.util.List;
 @RequestMapping("api/v1/software-engineers")
 public class SoftwareEngineerController {
   
-  @GetMapping
+  @GetMapping("/default")
   public List<SoftwareEngineer> getSoftwareEngineers() {
     return List.of(
         new SoftwareEngineer(1, "James", "react, javascript, nodejs, sql, html, css"),
